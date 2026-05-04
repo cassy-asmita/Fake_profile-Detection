@@ -1,0 +1,8 @@
+Model,Accuracy,Macro F1,ROC AUC,Fake Recall
+Baseline: LR,0.8983,0.8915,0.9514,0.8742
+Baseline: RF,0.9868,0.9859,0.9984,0.9774
+Baseline: Naive Bayes,0.5518,0.5378,0.919,0.9774
+Baseline: XGBoost,0.9892,0.9884,0.9987,0.9823
+Ours: Fed Tabular,0.8564,0.8307,0.9014,0.629
+Ours: Fed GRU,0.2303,0.1872,0.5085,1.0
+Ours: Meta-Learner,0.9994,0.9992,1.0,0.9982
